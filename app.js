@@ -12,7 +12,7 @@ app.get("/",async (req, res) => {
   try {
     const response = await axios.get("https://restcountries.com/v3.1/name/india?fullText=true");
     const result = response.data;
-    console.log(result);
+    // console.log(result);
     res.render("index.ejs",{data:result});
   } catch (error) {
     res.render("failure.ejs");
@@ -28,7 +28,7 @@ app.post("/", async (req, res) => {
       `https://restcountries.com/v3.1/name/${country}?fullText=true`
     );
     const result = response.data;
-    console.log(result);
+    // console.log(result);
     res.render("index.ejs",{data:result});
 
   } catch (error) {

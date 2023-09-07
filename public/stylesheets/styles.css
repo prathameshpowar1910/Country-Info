@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@500&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+  }
+  
+
+div {
+    text-align:center;
+}
+img{
+    width: 750px;
+    height: 450px;
+    filter: drop-shadow(-9px 4px 17px #000000AA);
+    border-radius: 20px;
+}
+a,a:active{
+    text-decoration: none;
+    font-size: 150px;
+    color:black;
+    display: block;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center; 
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.country-name {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #bbb; 
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select, 
+button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1em;
+  background-color: #bbbbbb80;
+}
+button {
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0062cc;
+}
