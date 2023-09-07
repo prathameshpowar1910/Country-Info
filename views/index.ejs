@@ -9,7 +9,7 @@
 <body>
     <%if (locals.data){ %>
     <div>
-    <img src= "<%= data[0].flags.png %>" alt="">
+    <img id="image" src= "<%= data[0].flags.png %>" alt="">
     <a href= "<%= data[0].maps.googleMaps %>" target="_blank" rel="noopener noreferrer"><%= data[0].name.common %></a>
 </div>
     <% }%>
