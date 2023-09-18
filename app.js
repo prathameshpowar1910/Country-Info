@@ -1,7 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
 import axios from "axios";
-import ColorThief from 'colorthief';
 const app = express();
 const port = 3000;
 
